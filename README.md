@@ -1,5 +1,5 @@
 # frontend
-HOME PAGE
+# HOME PAGE
 This is my Front end project submission. There are 4 pages in total, the Home page, FAQ page, Book a room page, and things to do page. All in all, should meet the project requirements. Many UX elements were added and code is all organized and neat (hopefully) by project standards. dynamic menu display is accessible by the 3 horizontal lines in the top right of the screen Im not sure what its called. There is a gallery at the bottom with pictures from fidderent places as if this was a real student center. In my opinion its a bit bare bones but it gets the job done.
 
 # FAQ page
@@ -10,3 +10,6 @@ page works as intended, fill in the fields then an alert will say if the room is
 
 # Activities or Things to do page, forgot what the name was.
 Really an insurance page for me, if there wasnt enough UX or pictures or media in general theres much more on this page now. Also adds some mass to the page as theres now 4 pages instead of 3. theres even an embedded link to take you to a previous page.
+
+#Correction
+If you happen to lok into my repositories, you will see a "correct-frontend" repository, that is actually a worse and more wrong version as I tried to see if i could add in the commit stages into github but failed. This front end file with the README is the more correct version.
