@@ -11,5 +11,6 @@ page works as intended, fill in the fields then an alert will say if the room is
 # Activities or Things to do page, forgot what the name was.
 Really an insurance page for me, if there wasnt enough UX or pictures or media in general theres much more on this page now. Also adds some mass to the page as theres now 4 pages instead of 3. theres even an embedded link to take you to a previous page.
 
+
 #Correction
-If you happen to lok into my repositories, you will see a "correct-frontend" repository, that is actually a worse and more wrong version as I tried to see if i could add in the commit stages into github but failed. This front end file with the README is the more correct version.
+If you happen to look into my repositories, you will see a "correct-frontend" repository, that is actually a worse and more wrong version as I tried to see if i could add in the commit stages into the github front end submission but failed. This front end file with the README is the more correct version.
