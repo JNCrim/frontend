@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>
+    Room Booking - SLAM Center
+  </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="booking.html">Book a room</a></li>
+                <li><a href="activities.html">Things to do</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle">☰</button>
+    </header>
+    <main>
+        <h1> Book a Room</h1>
+        <form id="Room-booking-form">
+            <label for="room"> Select a Room:</label>
+            <select id="room" required>
+                <option value="">--Choose a Room--</option>
+                <option value="Room1">Study Room 1</option>
+                <option value="Room2">Study Room 2</option>
+                <option value="Room3">Study Room 3</option>
+                <option value="Room4">Event Room 1</option>
+                <option value="Room5">Event Room 2</option>
+            </select><br><br>
+
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" required><br><br>
+
+
+            <label for="time">Time Slot:</label>
+            <input type="time" id="time" required><br><br>
+
+            <button type="submit">Book Room</button>
+        </form>
+        <p id="confirmation-message"></p>
+        <section class="Gallery">
+            <h2>Gallery</h2>
+            <div class="Gallery-container">
+                <img src="https://s3.amazonaws.com/libapps/accounts/49155/images/reserve_a_room_study_room_25.png" alt="image 9">
+                <img src="https://www.hilton.com/im/en/HOUUHHF/11386876/flamingo-room.jpg?impolicy=crop&cw=5472&ch=2297&gravity=NorthWest&xposition=0&yposition=675&rw=1920&rh=806" alt="image 10">
+                <img src="https://uh.edu/studentcenters/reservations/event-room-photos/_images/Ballroom-East-Row-Tables-Fair-Style.jpg" alt="image 11">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UH SLAM Center. All rights reserved.</p>
+    </footer>
+    <script src="booking.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
